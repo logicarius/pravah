@@ -4,14 +4,33 @@ Infrastructure projects rarely run into trouble overnight. A pending approval ho
 
 This is a working MVP with synthetic projects from across India. It runs entirely in the browser, with no API keys, accounts or backend services.
 
-## What you can do
+## How PRAVAH works
 
-- **Predict:** compare schedules with completed projects and inspect possible delay and cost exposure.
-- **Trace:** follow the warning timeline, blocked milestones and dependencies.
-- **Act:** review intervention timing, recovery requirements and affected community groups.
-- **Keep a record:** save and print an officer brief, record a decision and add a follow-up.
+### 1. Predict: Where is the project heading?
 
-The overview includes 720 synthetic projects across 36 states and union territories and eight sectors. Two review dates let you inspect how the picture changes over time.
+Before work starts, compare the planned schedule with similar completed projects. During execution, track progress, spending and milestones to estimate delays and possible extra costs. Comparisons use projects in the same sector and stage.
+
+**Result:** What might go wrong, when it might happen and the possible cost.
+
+### 2. Trace: Why is the project getting worse?
+
+Find the first warning and follow the problems connected to it. For example:
+
+Pending approval → Blocked milestone → Slower progress → Delay → Higher cost
+
+Show the blocking dependency and the point where action could help.
+
+**Result:** What started the problem, what it affects and where to intervene.
+
+### 3. Act: What should happen next?
+
+Classify the project as On Track, Delayed, Deteriorating or Stranded. Review the time left to act, what recovery would require and which communities could benefit. Identify the responsible authority and save an officer brief with the evidence, decision and follow-up.
+
+**Result:** A clear case for early action or recovery. The officer makes the final decision.
+
+Project data → Predict → Trace → Act → Officer decision → Follow-up
+
+The full concept is intended to use historical OCMS and monthly PAIMANA/CUF records. This MVP uses 720 synthetic projects across 36 states and union territories and eight sectors. It has no connection to those government systems. Two review dates let you inspect how the picture changes over time.
 
 ## Run it locally
 
